@@ -1,6 +1,7 @@
 let btn = document.querySelector('button')
 let inp = document.querySelector('input')
 let ul = document.querySelector('ul')
+ul.innerText = "" //list is empty after each iteration. 
 
 let url = "http://universities.hipolabs.com/search?name="
 
